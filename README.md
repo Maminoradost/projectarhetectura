@@ -1,2 +1,0 @@
-# projectarhetectura
-Xx lol
