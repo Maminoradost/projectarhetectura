@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Русская архитектура 18 века</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 20px;
+            background-image: url('https://wallbox.ru/resize/2560x1440/wallpapers/main/201137/tekstura-temnyy-fon-metall-cc0dfaf.jpg');
+            background-size: cover;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .content {
+            margin-top: 20px;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+        }
+
+        .fade-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .info-box {
+            background-color: #fff;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .info-box img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Русская архитектура 18 века</h1>
+        <p>Авторы: Кашпырев Арсений, Смирнов Максим Разработчик(писал код):Кашпырев Арсений</p>
+        
+        <!-- Приветствие -->
+        <div class="content">
+            <div class="info-box">
+                <h2>Приветствие</h2>
+                <p>Добро пожаловать на презентацию о русской архитектуре 18 века! В этой эпохе произошли значительные изменения в архитектурном стиле, отражающие развитие культуры и истории России.</p>
+            </div>
+        </div>
+        
+        <!-- Исторический контекст -->
+        <div class="content">
+            <div class="info-box">
+                <h2>Исторический контекст</h2>
+                <p>В 18 веке в России царствовали такие правители, как Петр I, Екатерина I, Петр II, Анна Иоанновна, Иван VI, Елизавета Петровна и Екатерина II. Это время было отмечено значительным ростом влияния Европейской культуры на Россию, в том числе и в области архитектуры.</p>
+            </div>
+        </div>
+        
+        <!-- Архитектурные стили -->
+        <div class="content">
+            <div class="info-box">
+                <h2>Архитектурные стили</h2>
+                <div id="baroque">
+                    <h3>Барокко</h3>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/2018_Kunstkamera_building_01.jpg" alt="Барокко">
+                    <p>Этот стиль был популярен в Европе и имел влияние на русскую архитектуру 18 века. Характеризуется изяществом, изобилием декора и величественными формами. Примеры барокко в русской архитектуре включают Смольный собор в Санкт-Петербурге и дворцы в Петергофе.</p>
+                </div>
+                
+                <div id="rococo">
+                    <h3>Рококо</h3>
+                    <img src="https://www.facade-project.ru/images/cms/data/arhitekturnyj_stil_rokoko/4-1-rokoko.jpg" alt="Рококо">
+                    <p>Этот стиль возник как ответ на барокко и характеризуется легкостью, грацией и изысканностью. В России рококо преобладал в интерьерах дворцов и усадеб, таких как Зимний дворец в Санкт-Петербурге.</p>
+                </div>
+                
+                <div id="classicism">
+                    <h3>Классицизм</h3>
+                    <img src="https://www.facade-project.ru/images/cms/data/klassicizm/6-2-ru-klassicizm.jpg" alt="Классицизм">
+                    <p>В конце 18 века в России стало популярным направление классицизма, которое восприняло элементы древнегреческой и древнеримской архитектуры. Примеры классицизма в русской архитектуре включают Смоленский собор в Москве и Эрмитаж в Санкт-Петербурге.</p>
+                </div>
+                
+                <!-- Другие архитектурные стили -->
+                <!-- Здесь вы можете добавить остальные стили -->
+            </div>
+        </div>
+        
+        <!-- Важные архитектурные объекты -->
+        <div class="content">
+            <div class="info-box">
+                <h2>Важные архитектурные объекты</h2>
+                <div id="hermitage">
+                    <h3>Эрмитаж</h3>
+                    <img src="https://www.advantour.com/russia/images/city/st-peterburg/landmarks-and-attractions/saint-petersburg-landmarks-and-attractions-hermitage.jpg" alt="Эрмитаж">
+                    <p>Эрмитаж – одно из крупнейших музейных комплексов мира, символ Санкт-Петербурга и России. Его архитектурное строение представляет собой слияние различных стилей, включая барокко и классицизм.</p>
+                </div>
+                
+                <div id="kusovo">
+                    <h3>Кусково</h3>
+                    <img src="https://travellgide.ru/wp-content/uploads/2018/06/kuskovo-800x445.jpg" alt="Кусково">
+                    <p>Кусково – усадьба в Московской области, являющаяся ярким примером русского рококо. Ее архитектурный ансамбль включает дворцово-парковый комплекс, фонтаны и павильоны.</p>
+                </div>
+                
+                <!-- Другие архитектурные объекты -->
+                <!-- Здесь вы можете добавить остальные объекты -->
+            </div>
+        </div>
+        
+        <!-- Заключение -->
+        <div class="content">
+            <div class="info-box">
+                <h2>Заключение</h2>
+                <p>Архитектура 18 века в России является важным этапом в истории страны, отражающим ее культурное разнообразие и влияние европейских тенденций. Надеюсь, что эта презентация позволила вам лучше понять и оценить богатство и красоту русской архитектуры того времени. Спасибо за внимание!
+                ЗДЕСЬ МОГЛА БЫТЬ ВАША РЕКЛАМА!ПО ПОВОДУ РЕКЛАМЫ : TG: @Susanoooooooo</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript код для анимации при прокрутке
+        window.addEventListener('scroll', () => {
+            const content = document.querySelectorAll('.content');
+            
+            content.forEach((element) => {
+                const scrollPosition = window.scrollY + window.innerHeight;
+                const contentPosition = element.offsetTop + element.offsetHeight / 2;
+                
+                if (scrollPosition > contentPosition) {
+                    element.classList.add('fade-in');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
